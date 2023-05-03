@@ -17,26 +17,31 @@ PyTorch 1.13
 | ---- | ---- | ----
 | +pnMixESKD | 79.19 | [baidu cloud](链接：https://pan.baidu.com/s/1GHcRJO4ebPu21vop3vrBXw?pwd=a3m1 提取码：a3m1)
 
-# Perform experiments of object detection on VOC
-| method | map | Pretrained Model
+# Perform experiments on cifar100 dataset
+| method | T1 | Pretrained Model
 | ---- | ---- | ----
-| +pnMixESKD | 83.66 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
+| +pnMixESKD+shakedrop | 13.08 | [baidu cloud](链接：https://pan.baidu.com/s/1sxE9uc4xCzkYEhiAuUZijA?pwd=4trp  提取码：4trp)
+
+# Perform experiments of object detection on VOC
+| method | mAP | Pretrained Model
+| ---- | ---- | ----
+| +pnMixESKD | 83.60 | [baidu cloud](链接：https://pan.baidu.com/s/1wdEf6hvzn9_exC8nk8z7vg?pwd=wcqx  提取码：wcqx)
 
 # Perform experiments of object detection on COCO
-| method | map | Pretrained Model
+| method | mAP | Pretrained Model
 | ---- | ---- | ----
-| +pnMixESKD | 41.81 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
+| +pnMixESKD | 41.81 | [baidu cloud](链接：https://pan.baidu.com/s/1aWjLAd6Z2ZAb_pS125w7qA?pwd=wdwx  提取码：wdwx)
 
 
 # Perform experiments of semantic segmentation on voc
 Except for pnMixESKD, all the imagenet pre-trained models we used for training were the official open-source models of the relevant data augmentation methods. We would like to express our gratitude to the authors for their open-source contributions. Perhaps due to the difference in the number of GPUs used, our image segmentation test results on the VOC dataset differ significantly from those of other papers, but the trends of the different methods are consistent. Therefore, we provide our trained image segmentation models for all relevant methods.
-| method | mIou | Pretrained Model
+| method | mIoU | Pretrained Model
 | ---- | ---- | ----
-| resnet50 | 75.62 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +mixup | 73.26 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +manifoldMixup | 73.48 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +cutmix | 73.31 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +cutmix+moex | 72.90 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +cutout | 73.17 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +mixSKD | 77.70 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
-| +pnMixESKD | 77.72 | [baidu cloud](链接：链接：https://pan.baidu.com/s/1w5WVHUw8U9t5AtGPNN48EQ?pwd=9xsz  提取码：9xsz)
+| resnet50 | 75.62 | [baidu cloud](链接：https://pan.baidu.com/s/13a81BTeKpz5tPIxFPjpnqA?pwd=5w2x  提取码：5w2x)
+| +mixup | 73.26 | [baidu cloud](链接：https://pan.baidu.com/s/1VHzczq32BEPmOusZcKoW-A?pwd=bl1x  提取码：bl1x)
+| +manifoldMixup | 73.48 | [baidu cloud](链接：https://pan.baidu.com/s/1lQyUaZtmpEgMMWhTNNfiMQ?pwd=7qny  提取码：7qny)
+| +cutmix | 73.31 | [baidu cloud](链接：https://pan.baidu.com/s/1ygMMzlWt30Gy9d4PVTIpOg?pwd=9m2y  提取码：9m2y)
+| +cutmix+moex | 72.90 | [baidu cloud](链接：https://pan.baidu.com/s/1IMP6gVMjbb0k_8MTDQBLmQ?pwd=e84g  提取码：e84g)
+| +cutout | 73.17 | [baidu cloud](链接：https://pan.baidu.com/s/1kihOQW2MikI6anGy2z4eNQ?pwd=0b0n  提取码：0b0n)
+| +mixSKD | 77.70 | [baidu cloud](链接：https://pan.baidu.com/s/1U6uOPChihhpi9ebNaYoVVQ?pwd=1h00  提取码：1h00)
+| +pnMixESKD | 77.72 | [baidu cloud](链接：https://pan.baidu.com/s/1DXovTanTMDOq8UwQRmidNQ?pwd=whle  提取码：whle)
